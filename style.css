@@ -1,0 +1,82 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: rgb(213, 225, 239);
+ }
+
+ .attribution {
+     position: absolute;
+     bottom: 0;
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ .container {
+     width: auto;
+     height: calc(100vh - 1px);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto 0 0 auto;
+ }
+
+ .card {
+     width: 21rem;
+     height: auto;
+     background-color: hsl(0, 0%, 100%);
+     padding: 15px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 25px;
+     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.05);
+ }
+
+ .card .card-img {
+     width: 300px;
+     border-radius: 20px;
+ }
+
+ .card .card-img img {
+     width: inherit;
+     border-radius: inherit;
+ }
+
+ .card .info {
+     display: flex;
+     flex-direction: column;
+     width: 20rem;
+     padding: 20px;
+ }
+
+ .card .info .heading {
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.3rem;
+     font-weight: 800;
+     text-align: center;
+     letter-spacing: 1.2px;
+     word-spacing: 1px;
+     margin-top: 1rem;
+     color: hsl(218, 44%, 22%);
+ }
+
+ .card .info .description {
+     font-family: 'Roboto', sans-serif;
+     font-size: 13px;
+     font-weight: 300;
+     text-align: center;
+     color: hsl(220, 15%, 55%);
+     margin-top: 1.3rem;
+     letter-spacing: 1.2px;
+     word-spacing: 1px;
+ }
